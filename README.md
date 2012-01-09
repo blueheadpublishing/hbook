@@ -15,6 +15,7 @@ dedication, set, book, part, partintro, colophon, appendix, article, chapter, pr
 Example
 Here is a simple book marked up with hBook:
 
+```html
 <div class="preface">
   This is the preface.
 </div>
@@ -31,6 +32,7 @@ Here is a simple book marked up with hBook:
     </div>
   </div>
 </div>
+```
 
 Errata and Updates
 Known errors and issues in this specification are corrected in resolved and closed issues. Please check there before reporting issues.
