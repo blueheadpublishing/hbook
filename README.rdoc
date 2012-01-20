@@ -21,7 +21,7 @@ Here is a simple book marked up with hBook:
 </div>
 
 <div class="part" id="pt-1-name">
-	This is part one.
+  This is part one.
   <div class="chapter" id="ch-2-name">
     This is the first chapter.
     <div class="section" id="sec-1-name">
