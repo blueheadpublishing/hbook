@@ -15,24 +15,24 @@ dedication, set, book, part, partintro, colophon, appendix, article, chapter, pr
 Example
 Here is a simple book marked up with hBook:
 
-```html
-<div class="preface">
-  This is the preface.
-</div>
 
-<div class="part" id="pt-1-name">
-  This is part one.
-  <div class="chapter" id="ch-2-name">
-    This is the first chapter.
-    <div class="section" id="sec-1-name">
-      This is the first section.
-      <div class="section" id="sub-sec-name">
-        This is the first sub-section.
-      </div>
-    </div>
-  </div>
-</div>
-```
+		<div class="preface">
+		  This is the preface.
+		</div>
+
+		<div class="part" id="pt-1-name">
+		  This is part one.
+		  <div class="chapter" id="ch-2-name">
+		    This is the first chapter.
+		    <div class="section" id="sec-1-name">
+		      This is the first section.
+		      <div class="section" id="sub-sec-name">
+		        This is the first sub-section.
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
 
 Errata and Updates
 Known errors and issues in this specification are corrected in resolved and closed issues. Please check there before reporting issues.
@@ -73,51 +73,49 @@ The properties of an hBook are represented by elements inside the hBook. Element
 Property List
 hBook properties
 
-bookinfo
-	copyright
-		year
-		holder
-	isbn
-	issn
-	pages
-	pubdate
-	description
-	publisher
-		name
-		address
-	version
-	release-date
-	title
-	subtitle
-	lccn
-	authorgroup
-		author
-			firstname
+* bookinfo
+ 	* copyright
+ 		* year
+		*	holder
+	* isbn
+	* issn
+	* pages
+	* pubdate
+	* description
+	* publisher
+		* name
+		* address
+	* version
+	* release-date
+	* title
+	* subtitle
+	* lccn
+	* authorgroup
+		* author
+		* firstname
 			lastname
-		contributor
-			type
-			firstname
-			lastname
-	keywords
-
-part
-	chapter
-		section
-
-frontcover
-halftitlepage: contains the title of the book
-titlepage: contains the title of the book, name of author(s) and publisher
-imprint: left page with copyright, publisher, library printing information
-dedication: right page with short dedication
-foreword: written by someone other than the author(s)
-toc: table of contents
-preface: preface, including acknowledgements
-chapter: each chapter is given its own DIV element
-references: contains list of references
-appendix: each appendix is given its own 
-bibliography
-glossary
-index
-colophon: describes how the book was produced
-backcover
-footnote
+	* contributor
+		* type
+		* firstname
+		* lastname
+	* keywords
+* part
+	* chapter
+		* section
+* frontcover
+* halftitlepage: contains the title of the book
+* titlepage: contains the title of the book, name of author(s) and publisher
+* imprint: left page with copyright, publisher, library printing information
+* dedication: right page with short dedication
+* foreword: written by someone other than the author(s)
+* toc: table of contents
+* preface: preface, including acknowledgements
+* chapter: each chapter is given its own DIV element
+* references: contains list of references
+* appendix: each appendix is given its own 
+* bibliography
+* glossary
+* index
+* colophon: describes how the book was produced
+* backcover
+* footnote
