@@ -74,9 +74,9 @@ Property List
 hBook properties
 
 * bookinfo
- 	* copyright
- 		* year
-		*	holder
+	* copyright
+		* year
+		* holder
 	* isbn
 	* issn
 	* pages
